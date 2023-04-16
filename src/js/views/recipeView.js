@@ -1,10 +1,10 @@
 import View from './View.js';
-import { numberToFraction } from '../helpers.js';
+// import { numberToFraction } from '../helpers.js';
 // ele.quantity ? numberToFraction(ele.quantity).toString() : '';
 
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from 'url:../../img/icons.svg'; // Parcel 2
-import { Fraction } from 'fractional';
+import Fractional from '../helpers.js';
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
